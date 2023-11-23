@@ -1,5 +1,9 @@
-//
-// Created by Sofia D.C Vazquez Sanchez on 23/11/23.
-//
+#include <iostream>
+#include <string>
 
-#include "ejercicio.h"
+
+int main (){
+    std:: string phrase =" Este es un ejemplo de cadenas STL ";
+    std::cout << "La frase es:"<< phrase << std :: endl;
+    return 0;
+}
