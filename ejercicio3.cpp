@@ -1,25 +1,18 @@
 #include <iostream>
 #include <string>
 
-int main () {
-    //Crear cadena
-    std:: string cadena = "Ejemplo 3";
-    //Imprimir cadena
-    std:: string subcadena_buscar= "3";
-    //Buscar cadena
-    size_t indice_inicio= cadena.find(subcadena_buscar);
-    // Imprimir cadena
-    if (indice_inicio != std::string::npos){
+int main() {
+    // Crear dos cadenas utilizando la clase string
+    std::string cadena1 = "Hola, ";
+    std::string cadena2 = "mundo!";
 
-        std:: cout<< "La subcadena"<< subcadena_buscar<< "se encuentra en la posicion"<<indice_inicio<<std ::endl;
+    // Utilizar el operador '+' p
+    std::string cadena_resultante = cadena1 + cadena2;
 
-        std:: string nueva_subcadena= "tres";
-        cadena.replace(indice_inicio,subcadena_buscar.size(),nueva_subcadena);
-        std::cout<<"La nueva cadena es:"<<cadena<<std::endl;
-    } else {
-        std::cout << "La subcadena '" << subcadena_buscar << "' no se encuentra en la cadena." << std::endl;
-    }
+    // Imprimir la cadena resultante
+    std::cout << "La cadena resultante es: " << cadena_resultante << std::endl;
 
     return 0;
 }
+
 
