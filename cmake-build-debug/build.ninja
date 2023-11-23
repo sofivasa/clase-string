@@ -104,6 +104,70 @@ build ejercicio2: CXX_EXECUTABLE_LINKER__ejercicio2_Debug CMakeFiles/ejercicio2.
   TARGET_FILE = ejercicio2
   TARGET_PDB = ejercicio2.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target ejercicio3
+
+
+#############################################
+# Order-only phony target for ejercicio3
+
+build cmake_object_order_depends_target_ejercicio3: phony || CMakeFiles/ejercicio3.dir
+
+build CMakeFiles/ejercicio3.dir/ejercicio3.cpp.o: CXX_COMPILER__ejercicio3_unscanned_Debug /Users/sofivazsanch/Documents/GitHub/clase-string/ejercicio3.cpp || cmake_object_order_depends_target_ejercicio3
+  DEP_FILE = CMakeFiles/ejercicio3.dir/ejercicio3.cpp.o.d
+  FLAGS = -g -std=gnu++14 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=12.6 -fcolor-diagnostics
+  INCLUDES = -I/Users/sofivazsanch/Documents/GitHub/clase-string/.
+  OBJECT_DIR = CMakeFiles/ejercicio3.dir
+  OBJECT_FILE_DIR = CMakeFiles/ejercicio3.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target ejercicio3
+
+
+#############################################
+# Link the executable ejercicio3
+
+build ejercicio3: CXX_EXECUTABLE_LINKER__ejercicio3_Debug CMakeFiles/ejercicio3.dir/ejercicio3.cpp.o
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=12.6
+  OBJECT_DIR = CMakeFiles/ejercicio3.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = ejercicio3
+  TARGET_PDB = ejercicio3.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target ejercicio4
+
+
+#############################################
+# Order-only phony target for ejercicio4
+
+build cmake_object_order_depends_target_ejercicio4: phony || CMakeFiles/ejercicio4.dir
+
+build CMakeFiles/ejercicio4.dir/ejercicio4.cpp.o: CXX_COMPILER__ejercicio4_unscanned_Debug /Users/sofivazsanch/Documents/GitHub/clase-string/ejercicio4.cpp || cmake_object_order_depends_target_ejercicio4
+  DEP_FILE = CMakeFiles/ejercicio4.dir/ejercicio4.cpp.o.d
+  FLAGS = -g -std=gnu++14 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=12.6 -fcolor-diagnostics
+  INCLUDES = -I/Users/sofivazsanch/Documents/GitHub/clase-string/.
+  OBJECT_DIR = CMakeFiles/ejercicio4.dir
+  OBJECT_FILE_DIR = CMakeFiles/ejercicio4.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target ejercicio4
+
+
+#############################################
+# Link the executable ejercicio4
+
+build ejercicio4: CXX_EXECUTABLE_LINKER__ejercicio4_Debug CMakeFiles/ejercicio4.dir/ejercicio4.cpp.o
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=12.6
+  OBJECT_DIR = CMakeFiles/ejercicio4.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = ejercicio4
+  TARGET_PDB = ejercicio4.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -138,7 +202,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /Users/sofivazsanch/Documents/GitHub/clase-string/cmake-build-debug
 
-build all: phony clase_string ejercicio2
+build all: phony clase_string ejercicio2 ejercicio3 ejercicio4
 
 # =============================================================================
 # Built-in targets

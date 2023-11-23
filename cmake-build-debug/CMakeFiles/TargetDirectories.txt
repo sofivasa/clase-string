@@ -1,4 +1,6 @@
 /Users/sofivazsanch/Documents/GitHub/clase-string/cmake-build-debug/CMakeFiles/clase_string.dir
 /Users/sofivazsanch/Documents/GitHub/clase-string/cmake-build-debug/CMakeFiles/ejercicio2.dir
+/Users/sofivazsanch/Documents/GitHub/clase-string/cmake-build-debug/CMakeFiles/ejercicio3.dir
+/Users/sofivazsanch/Documents/GitHub/clase-string/cmake-build-debug/CMakeFiles/ejercicio4.dir
 /Users/sofivazsanch/Documents/GitHub/clase-string/cmake-build-debug/CMakeFiles/edit_cache.dir
 /Users/sofivazsanch/Documents/GitHub/clase-string/cmake-build-debug/CMakeFiles/rebuild_cache.dir
