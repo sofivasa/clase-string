@@ -8,3 +8,4 @@ include_directories(.)
 add_executable(clase_string
         ejercicio.cpp
         ejercicio.h)
+add_executable(ejercicio2 ejercicio2.cpp)

@@ -15,7 +15,8 @@
 					"source" : ".",
 					"targetIndexes" : 
 					[
-						0
+						0,
+						1
 					]
 				}
 			],
@@ -30,7 +31,8 @@
 					"name" : "clase_string",
 					"targetIndexes" : 
 					[
-						0
+						0,
+						1
 					]
 				}
 			],
@@ -41,6 +43,13 @@
 					"id" : "clase_string::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-clase_string-Debug-579af346d1295ff36b8b.json",
 					"name" : "clase_string",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ejercicio2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ejercicio2-Debug-413778e7e2df486d8453.json",
+					"name" : "ejercicio2",
 					"projectIndex" : 0
 				}
 			]
